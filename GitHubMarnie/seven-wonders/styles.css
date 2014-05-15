@@ -1,0 +1,39 @@
+body {
+	background-color: #EEE;
+	font-family: sans-serif;
+	border:1px solid black;
+	display: table;
+}
+
+img {
+	float:left;
+	max-width: 200px;
+	margin: 10px;
+	border: 1px solid gray;
+	padding: 5px;
+	display: inline-block;
+	background: #CCC;
+
+}
+
+p {
+	line-height: 1.5em;
+}
+
+h1 a.hover {
+	text-decoration: none;
+}
+
+.back {
+	text-decoration: none;
+	color:red;
+
+}
+
+.back:hover {
+	background:blue;
+}
+
+p a {
+	color: green;
+}
