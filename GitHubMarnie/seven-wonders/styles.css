@@ -3,6 +3,7 @@ body {
 	font-family: sans-serif;
 	border:1px solid black;
 	display: table;
+
 }
 
 img {
@@ -13,11 +14,17 @@ img {
 	padding: 5px;
 	display: inline-block;
 	background: #CCC;
+	border-radius: 50px;
+
 
 }
 
 p {
 	line-height: 1.5em;
+}
+
+h1 {
+	text-align: center;
 }
 
 h1 a.hover {
@@ -34,6 +41,11 @@ h1 a.hover {
 	background:blue;
 }
 
-p a {
-	color: green;
+a {
+	text-align: center;
 }
+
+.button {
+	text-align: center;
+}
+
