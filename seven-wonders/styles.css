@@ -1,0 +1,28 @@
+body {
+	background-color: #EEE;
+	font-family: sans-serif;
+}
+
+img {
+	background: #AAA;
+	border-radius: 100%;
+	display: inline-block;
+	float: left;
+	max-width: 200px;
+	padding: 5px;
+	width: 200px:;
+	height: 200px;
+}
+
+p {
+	line-height: 1.5em;
+} 
+
+button:hover {
+  	border: 2px solid #555;
+  	height: 38px;
+  
+}
+	
+
+.colossuspic
