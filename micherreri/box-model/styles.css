@@ -1,0 +1,38 @@
+.box {
+	background-color: #99CCFF
+	height: 50px;
+	width: 150px;
+	padding: 20px;
+	border: 10px dotted black;
+	position: relative;
+	text-align: center;
+	border-radius: 80%;
+
+}
+.ancestor {
+	position: absolute;
+	background: url(http://www.desktopaper.com/wp-content/uploads/magnificence-kayak-en-alaska-landscapes-mountains.jpg);
+	height:400px;
+	background-size: cover;
+	background-repeat: repeat-x
+
+}
+
+span {
+	background:red;
+}
+
+.nav a,
+.back {
+	background: green;
+	display: inline-block;
+	line-height: 50px;
+
+}
+
+.container {
+	margin-left: auto;
+	margin-right: auto;
+	width: 700px;
+}
+.ancestor
