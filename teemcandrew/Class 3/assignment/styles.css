@@ -1,0 +1,31 @@
+.image {
+	background: url(http://www.bikramyogabarrie.com/wp-content/uploads/2014/04/new_slider16_ver1.jpg);
+	background-size: cover;
+	height: 370px;
+	width: 100%;
+	top: 90px;
+}
+
+.button {
+	color: red;
+	height: 50px;
+	width: 10px;
+}
+
+nav {
+
+}
+.container {
+
+}
+
+span {
+	color: #FF0000;
+
+}
+
+.title {
+	font-style: inherit;
+	left: 50%;
+	top: 20px;
+}

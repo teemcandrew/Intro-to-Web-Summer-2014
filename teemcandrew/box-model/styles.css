@@ -1,0 +1,29 @@
+.box {
+	background-color: #F0F;
+	border: 10px dotted black;
+	height: 50px;
+	margin: 50px;
+	padding: 20px;
+	width: 150px;
+}
+
+span {
+	background-color: red;
+}
+
+.ancestor {
+	background: url(http://images6.alphacoders.com/459/459521.jpg;)
+}
+
+.button {
+	background-color: green;
+	line-height: 50px;
+	display: inline-block;
+
+}
+
+.container {
+	margin-left:auto;
+	margin-right:auto;
+	width: 700px;
+}
