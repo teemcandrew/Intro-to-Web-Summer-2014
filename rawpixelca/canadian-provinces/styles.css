@@ -1,0 +1,52 @@
+body {
+
+}
+
+img.inline {
+	background: #ccc;
+	border: 1px solid #333;
+	padding: 5px;
+	width: 150px;
+}
+
+img.inline.left{
+	float:left;
+	margin: 0 15px 0 0;
+}
+
+img.inline.right{
+	float:right;
+	margin:0 0 0 15px;
+}
+
+.nav {
+	float:left;
+	margin: 0 5% 0 0;
+	width: 25%;
+}
+
+.main {
+	float:right;
+	margin : 0 0 0 5%;
+	width: 65%;
+}
+
+.clearfix:after{
+	visibility: hidden;
+	display:block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+ }
+
+
+.logo{
+	float:left;
+	height:100px;
+	margin: 0 15px 0 0;
+}
+
+h1{
+	line-height: 100px;
+}
