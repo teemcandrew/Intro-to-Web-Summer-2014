@@ -1,0 +1,51 @@
+body {
+	background: #fff;
+	font-family: sans-serif;
+}
+
+img.inline {
+	width: 150px;
+	padding: 5px;
+	border: 1px solic #333;
+	background: #ccc;
+}
+
+
+img.inline.right {
+	float: right;
+	margin: 0 0 0 15px;
+}
+
+.logo {
+	width: 150
+}
+.nav {
+	float: left;
+	margin: 0 5% 0 0;
+	width: 25%;
+}
+
+.main {
+	float: right;
+	margin: 0 0 0 5%;
+	width: 65%;
+}
+
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+
+.logo {
+	float: left;
+	height: 150px;
+	margin: 0 15px 0 0;
+}
+
+h1 {
+	line-height: 100px;
+}
