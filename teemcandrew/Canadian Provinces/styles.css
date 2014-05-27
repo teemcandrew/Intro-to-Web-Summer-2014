@@ -1,0 +1,80 @@
+body {
+	font-family: sans-serif;
+}
+
+img.inline {
+	background: #CCC;
+	border: 1px solid #333;
+	margin: 0 15px;
+	padding: 5px;
+	width: 150px;
+}
+
+img.inline.left {
+	float:left;
+	margin: 0 15px 0 0;
+}
+
+img.inline.right {
+	float:right;
+	margin: 0 0 0 15px;
+}
+
+.nav {
+	float: left;
+	margin: 0 5% 0 0;
+	width: 25%;
+}
+
+.main {
+	float: right;
+	margin: 0 0 0 5%;
+	width: 65%;
+}
+
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
+
+img.homepage {
+	background-size: cover;
+	height: 500px;
+	width: 100%
+
+}
+
+img.header {
+	background-size: cover;
+	height: 300px;
+	width: 100%;
+}
+
+img.TODO {
+	margin: 5px;
+	width: 100%;
+	opacity:0.4;
+}
+
+img.TODO:hover {
+	opacity: 1;
+}
+
+.things_to_do {
+	display: inline-block;
+	width: 30%;
+}
+
+.things_to_do h3 {
+	text-align: center;
+}
