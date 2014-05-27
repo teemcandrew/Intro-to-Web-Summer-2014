@@ -6,6 +6,8 @@
 
 We're going to learn about a powerful front-end framework called Twitter Bootstrap or just Bootstrap. Bootstrap will allow us to build beautiful, responsive sites very quickly without having to write as much code.
 
+You can explore the Bootstrap site [here](http://getbootstrap.com/).
+
 **Some of the things we'll be doing:**
 
 - Download and configure Bootstrap to work with your projects.
