@@ -1,4 +1,4 @@
-[Table Of Contents](../../readme.md)
+[Table Of Contents](readme.md)
 
 # Week 2 - Class 4 : More CSS Positioning and Layouts
 

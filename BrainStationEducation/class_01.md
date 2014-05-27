@@ -1,4 +1,4 @@
-[Table Of Contents](../../readme.md)
+[Table Of Contents](readme.md)
 
 # Week 1 - Class 2 : Version Control, Git And GitHub, And Sublime Text 2
 
