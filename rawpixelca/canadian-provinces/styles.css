@@ -25,9 +25,26 @@ img.inline.right{
 	width: 25%;
 }
 
+li {
+	color: #FFF;
+	margin: 20px 0 20px 0;
+	background:#0099FF;
+	text-align: center;
+    padding: 10px;
+    font-size: 21px;
+	font-family: sans-serif;
+	border-radius: 100px;
+	list-style:none;
+}
+
+li.btnblk{
+	background: #333;
+	border-radius: 10px;
+}
+
 .main {
 	float:right;
-	margin : 0 0 0 5%;
+	margin : 20px 0 0 5%;
 	width: 65%;
 }
 
@@ -49,4 +66,23 @@ img.inline.right{
 
 h1{
 	line-height: 100px;
+}
+
+.header {
+	background-image: url(http://www.fishingontario.com/img63.jpg);
+	background-size: cover;
+	
+	height:300px;
+
+}
+
+.icon {
+	width: 35px;
+	margin-right: 10px;
+}
+
+p.prov {
+	display:inline-block;
+	position: relative;
+	bottom:14px	;
 }
