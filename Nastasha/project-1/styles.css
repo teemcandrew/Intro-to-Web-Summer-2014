@@ -1,3 +1,50 @@
 body {
 	background: #FFF;
 }
+
+a {
+	text-decoration: none;
+	color: #FFF;
+	font-family: Helvetica, sans-serif;
+}
+
+ul {
+	list-style: none;
+	margin: auto;
+	padding: 0;
+	max-width: 400px;
+	text-align: center;
+}
+
+li {
+	padding: 10px;
+	width: 100px;
+	height: 20px;
+	display: inline-block;
+}
+
+.nav {
+	background: #7A2929;
+	text-align: center;
+	border-radius: 20px;
+	max-height: 100%;
+	height: 50px;
+	position: relative;	
+}
+
+.main {
+	max-height: 600px;
+	max-width: 600px;
+	vertical-align: middle;
+	position: relative;
+	margin: auto;
+	text-align: center;
+}
+
+img {
+	margin: 20px;
+	padding: 5px;
+	width: 100%;
+	border-radius: 50%;
+}
+
