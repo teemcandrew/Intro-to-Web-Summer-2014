@@ -1,4 +1,4 @@
-[Table Of Contents](../readme.md)
+[Table Of Contents](readme.md)
 
 # Student Handbook : Introduction To Web Development
 
