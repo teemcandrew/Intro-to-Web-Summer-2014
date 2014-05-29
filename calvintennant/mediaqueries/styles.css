@@ -29,13 +29,13 @@ img {
 
 }
 
-@media(max-width: 900px) {
+@media(min-width: 900px) {
 	.container {
 		width: 900px;
 	}
 }
 
-@media(max-width: 1200px) {
+@media(min-width: 1200px) {
 	.container {
 		width: 1200px;
 	}
