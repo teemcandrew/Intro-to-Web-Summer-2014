@@ -10,7 +10,7 @@ img {
 	margin: 10px;
 }
 
-@media(min-width: 768px) {
+@media(min-width: 767px) {
 	body {
 		background: white;
 	}
