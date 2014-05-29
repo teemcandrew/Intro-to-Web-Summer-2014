@@ -1,6 +1,5 @@
 Zina Nelku
-
-====================
+==========
 
 Zina Nelku is a Communications Coordinator at Grand Challenges Canada. Ms. Nelku is responsible for reviewing, editing and enhancing the communications of Grand Challenges Canada.
 
