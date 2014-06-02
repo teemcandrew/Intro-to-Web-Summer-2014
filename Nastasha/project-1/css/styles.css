@@ -10,6 +10,15 @@ a {
 	font-family: Helvetica, sans-serif;
 }
 
+#wrapper {
+	max-height: 600px;
+	max-width: 600px;
+	vertical-align: middle;
+	position: relative;
+	margin: auto;
+	text-align: center;
+}
+
 img {
 	max-width: 100%;
 }
@@ -82,29 +91,4 @@ nav ul li a {
 
 .porkypleasures {
 	border-radius: 60px;
-}
-
-#wrapper {
-	max-height: 600px;
-	max-width: 600px;
-	vertical-align: middle;
-	position: relative;
-	margin: auto;
-	text-align: center;
-}
-
-/***** PAGE: ABOUT *****/
-
-.profile-pic {
-  display: block;
-  max-width: 150px;
-  margin: 0 auto 30px;
-  border-radius: 100%;
-}
-
-/**** COLOURS ****/
-
-/* selected nav link */
-nav a.selected, nav a:hover {
-  color: #32673f;
 }
