@@ -1,22 +1,13 @@
 /***** GENERAL *****/
 
 body {
-	background: #FFF;
+	background: #EBEBFF;
 
 }
 
 a {
 	text-decoration: none;
 	font-family: Helvetica, sans-serif;
-}
-
-#wrapper {
-	max-height: 600px;
-	max-width: 600px;
-	vertical-align: middle;
-	position: relative;
-	margin: auto;
-	text-align: center;
 }
 
 img {
@@ -26,6 +17,13 @@ img {
 p {
 	font-family: Helvetica;
 	color: black;
+  text-align: center;
+}
+
+#wrapper {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 5%;
 }
 
 /***** HEADING *****/
@@ -71,7 +69,30 @@ nav ul li a {
 	color: gray;
 }
 
-/***** FOOTER *****/
+nav ul li a.selected {
+  color: gray;
+}
+
+/***** PAGE: MENU *****/
+
+table {
+  margin: 10px auto;
+}
+
+td {
+  font-family: Helvetica;
+  color: black;
+}
+
+th {
+  border: 1px solid black;
+  padding: .25em 1em;
+  font-family: Helvetica;
+}
+
+tr:nth-child(2n) {
+  background: #CCC;
+}
 
 
 /***** PAGE: INDEX *****/
@@ -89,6 +110,87 @@ nav ul li a {
   color: #bdc3c7;
 }
 
-.porkypleasures {
+.photo {
 	border-radius: 60px;
+}
+
+
+/***** PAGE: ABOUT *****/
+
+.profile-pic {
+  display: block;
+  max-width: 150px;
+  margin: 20px auto;
+  border-radius: 100%;
+}
+
+
+/***** PAGE: CONTACT *****/
+
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+
+.clearfix { display: inline-block; }
+
+/* start commented backslash hack \*/
+
+* html .clearfix { height: 1%; }
+
+.clearfix { display: block; }
+
+/* close commented backslash hack */
+
+.gen-info {
+	float: left;
+	} 
+
+.contact-details {
+	float: right;
+}
+
+ul.contact-info {
+  text-decoration: none;
+  list-style: none;
+  padding: 0;
+}
+
+ul.contact-info li a {
+  display: block;
+  min-height: 20px;
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  padding: 0;
+  margin: 0 0 10px;
+}
+
+h3 {
+	font-family: Helvetica;
+}
+
+
+/***** MEDIA QUERIES *****/
+
+@media(min-width: 767px) {
+  body {
+    background: #FFF;
+  }
+  .photo {
+    background: #EBEBFF;
+    float: left;
+  }
+  .container {
+    margin: 0 auto;
+  }
+}
+
+@media(min-width: 768px) and (max-width: 900px) {
+  .container {
+    width: 600px;
+  }
 }
