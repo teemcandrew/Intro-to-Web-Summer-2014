@@ -89,9 +89,9 @@ Working with Bootstrap components:
 ### [Week 5 - Class 10](class_10.md)
 
 Working with Bootstrap built-in JavaScript:
--Modal
--Scrollspy
--Tabs
--Carousels
+- Modal
+- Scrollspy
+- Tabs
+- Carousels
 
 ***
