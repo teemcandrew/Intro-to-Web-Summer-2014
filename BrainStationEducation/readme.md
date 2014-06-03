@@ -56,3 +56,8 @@ We've assembled a list of readings, videos, and tutorials that we encourage you 
 
 - No New Material Covered Today
 - [Project 1](project_01.md) Continued
+
+### [Week 4 - Class 7](class_07.md)
+
+- Introduction to Bootstrap
+- Learn how to set up project using Bootstrap.
