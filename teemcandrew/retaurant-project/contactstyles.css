@@ -1,0 +1,42 @@
+.bg {
+	position: fixed;
+	top: 0;
+	left: 0;
+	min-width:100%;
+	min-height:100%;
+  	opacity: 0.6;
+  	z-index: -1; 
+}
+
+.nav {
+	font-family:  'Hoefler Text', Georgia, 'Times New Roman', serif;
+	font-weight: normal;
+	letter-spacing: .2em;
+	text-transform: lowercase;
+	display: inline;
+}
+
+.nav li a {
+	text-decoration: none;
+}
+
+.nav a:hover {
+	text-decoration: underline;
+}
+
+li {
+	list-style-type: none;
+	display: inline;
+	text-decoration: none;
+}	
+
+.contacttitle {
+	display: inline-block;
+	font-size: 20px;
+	font-family: Georgia, 'Times New Roman', serif;
+	color: #000;
+	text-align: center;
+    font-weight: 100;
+
+}
+

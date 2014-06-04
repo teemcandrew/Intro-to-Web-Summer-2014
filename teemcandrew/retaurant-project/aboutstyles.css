@@ -1,0 +1,51 @@
+.body {
+	background-colour: lightgray;
+}
+
+.image {
+	height:100px;
+	width: 100px;
+	display: inline-block;
+	position: relative;
+	left: 60px;
+}
+
+
+.nav {
+	font-family:  'Hoefler Text', Georgia, 'Times New Roman', serif;
+	font-weight: normal;
+	letter-spacing: .2em;
+	text-transform: lowercase;
+	display: inline;
+}
+
+.nav li a {
+	text-decoration: none;
+}
+
+.nav a:hover {
+	text-decoration: underline;
+}
+
+li {
+	list-style-type: none;
+	display: inline;
+	text-decoration: none;
+}
+
+.title2 {
+	font-size: 20px;
+	font-family: Georgia, 'Times New Roman', serif;
+	color: #000;
+	text-align: center;
+    font-weight: 100;
+}
+
+.abouttext {
+	text-align: center;
+	font-family:  'Hoefler Text', Georgia, 'Times New Roman', serif;
+	font-weight: normal;
+	margin: 0px;
+	text-transform: lowercase;
+
+}

@@ -1,0 +1,36 @@
+body {
+	background-color: white;
+}
+
+.image {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50px; 
+    right: 200px;
+}
+
+.nav {
+	font-family:  'Hoefler Text', Georgia, 'Times New Roman', serif;
+	font-weight: normal;
+	letter-spacing: .2em;
+	text-transform: lowercase;
+	display: inline;
+}
+
+.nav li a {
+	text-decoration: none;
+}
+
+.nav a:hover {
+	text-decoration: underline;
+}
+
+li {
+	list-style-type: none;
+	display: inline;
+	text-decoration: none;
+}
+
+.menutitle {
+	display: inline-block;
+}
