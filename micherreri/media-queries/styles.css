@@ -7,7 +7,7 @@ img {
 	margin: 10px;
 }
 
-@media(min-width:768px) {
+@media(min-width:767px) {
 	img {
 		max-height: 280px;
 		max-width: 280px;
