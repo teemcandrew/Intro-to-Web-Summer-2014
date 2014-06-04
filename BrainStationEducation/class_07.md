@@ -47,3 +47,10 @@ Students should understand the following:
 - [Bootstrap Tutorial](http://www.revillweb.com/tutorials/bootstrap-tutorial/)
 - [Twitter Bootstrap Tutorial For Beginners](http://www.tutorialrepublic.com/twitter-bootstrap-tutorial/)
 - [Lynda.com Complete Bootstrap Video Series](https://www.youtube.com/watch?v=lS8Hr7Gt0iM&list=PLdGOU3qUduvVv8qCDz855zRZR7_IAX2RM)
+
+## Assignment
+Build website that demonstrates basic bootstrap features
+ - Include a "built with bootstrap" section
+ - Include a section on bootstrap buttons
+ - Include a section on bootstrap's grid system
+

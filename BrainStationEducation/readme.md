@@ -81,5 +81,47 @@ We've assembled a list of readings, videos, and tutorials that we encourage you 
 
 - No New Material Covered Today
 - [Project 1](project_01.md) Continued
+<<<<<<< HEAD
 =======
+>>>>>>> FETCH_HEAD
+=======
+
+***
+
+### [Week 4 - Class 7](class_07.md)
+
+- Introduction to Twitter Bootstrap
+- Setting up Bootstrap Project
+
+***
+
+### [Week 4 - Class 8](class_08.md)
+
+Bootstrap Cont’d:
+
+- Grid System
+- Responsive Design
+
+***
+
+### [Week 5 - Class 9](class_09.md)
+
+Working with Bootstrap components:
+- Iconography
+- Dropdowns
+- Input Groups
+- Navigations
+- And much more. 
+
+***
+
+### [Week 5 - Class 10](class_10.md)
+
+Working with Bootstrap built-in JavaScript:
+- Modal
+- Scrollspy
+- Tabs
+- Carousels
+
+***
 >>>>>>> FETCH_HEAD
