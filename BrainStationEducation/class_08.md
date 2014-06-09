@@ -13,7 +13,7 @@ We're going to dig deeper intro the Bootstrap grid system. Bootstrap includes a 
 - Content should be placed within columns, and only columns may be immediate children of rows.
 - Grid columns are created by specifying the number of twelve available columns you wish to span. For example, three equal columns would use three .col-xs-4.
 
-We’ve put a quick example together. You can access it[here](http://codepen.io/BrainStationEDU/pen/wAodF).
+We’ve put a quick example together. You can access it [here](http://codepen.io/BrainStationEDU/pen/wAodF).
 
 **Some of the things we'll be doing:**
 
