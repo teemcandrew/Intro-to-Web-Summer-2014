@@ -6,12 +6,12 @@
 
 We're going to dig deeper intro the Bootstrap grid system. Bootstrap includes a responsive, mobile first fluid grid system that appropriately scales up to 12 columns as the device or viewport size increases. It includes predefined classes for easy layout options, as well as powerful mixins for generating more semantic layouts.
 
-**Some important things to keep in mind:
+**Some important things to keep in mind:**
 
--Rows must be placed within a .container (fixed-width) or .container-fluid (full-width) for proper alignment and padding.
--Use rows to create horizontal groups of columns.
--Content should be placed within columns, and only columns may be immediate children of rows.
--Grid columns are created by specifying the number of twelve available columns you wish to span. For example, three equal columns would use three .col-xs-4.
+- Rows must be placed within a .container (fixed-width) or .container-fluid (full-width) for proper alignment and padding.
+- Use rows to create horizontal groups of columns.
+- Content should be placed within columns, and only columns may be immediate children of rows.
+- Grid columns are created by specifying the number of twelve available columns you wish to span. For example, three equal columns would use three .col-xs-4.
 
 We’ve put a quick example together. You can access it[here](http://codepen.io/BrainStationEDU/pen/wAodF).
 
