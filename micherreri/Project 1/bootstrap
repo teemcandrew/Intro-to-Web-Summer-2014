@@ -1,0 +1,29 @@
+<div class="row">
+		
+			<div class="col-sm-6 col-md-3">
+				<td class="menu-item">Shime Saba/</td>
+				<td class="description"> mackerel + rice vinegar + ginger + scallions + wasabi soy</td>
+				<td class="price"> 7 <td>
+			</div>
+			<tr>
+				<td class="menu-item"> Smoked Pork Belly Dumplings/</td>
+				<td class="description"> smoked pork belly + ground pork + chinese chive + napa cabbage + jalapeno ponzu + chipotle aioli</td>
+				<td class="price"> 8 </td>
+			</tr>
+			<tr>
+				<td class="menu-item"> Bi Bim Bbap Rolls/</td>
+				<td></td>
+				<td class="price"> 8 </td>
+
+			</tr>
+			<tr>
+				<td class="menu-item"> Spicy Pork Sliders/</td>
+				<td class="description"> gochujjang pork + american cheese + scallion slaw + garlic aioli + egg bun </td>
+				<td class="price"> 10 </td>
+			</tr>
+			<tr>	
+				<td class="menu-item"> Kimchi pears with Stilton/ </td>
+				<td class="description"> mixed greens + kimchi'ed korean pears + stilton </td>
+				<td class="price"> 10 </td>
+			</tr>
+</div>
