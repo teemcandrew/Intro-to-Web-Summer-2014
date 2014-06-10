@@ -1,0 +1,30 @@
+.science {
+	background-image:url(https://thceruleanp.s3.amazonaws.com/static/img/arm_with_signal.jpg);
+	height: 600px;
+	background-size: cover;
+	background-position: right;
+	color: #fff;
+}
+
+@media screen and (max-width: 480px) {
+	.science{
+		background-color: black;
+		background-image: none;
+	}
+}
+
+.science h2{
+	text-transform: uppercase;
+}
+
+.sub-heading{
+	color: #43c3d9;
+	font-size: 10px;
+}
+
+.thalmic{
+	background-color: #43c3d9;
+	width: 40%;
+	border-radius: 10px;
+	text-transform: uppercase;
+}
