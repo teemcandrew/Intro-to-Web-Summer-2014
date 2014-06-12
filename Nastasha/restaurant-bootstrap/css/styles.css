@@ -50,29 +50,29 @@ ul {
 }
 
 /* Large desktop */
-@media (min-width: 1200px) {
+@media (min-width: 1200px) { 
   body {
-    background-image: url('img/food.png') no-repeat;
+    background: url('../img/food.png');
   }
 }
 
 /* Portrait tablet to landscape and desktop */
 @media (min-width: 768px) and (max-width: 979px) {
   body {
-    background-image: url('img/giftly.png') no-repeat;
+    background: url('../img/giftly.png');
   }
 }
 
 /* Landscape phone to portrait tablet */
 @media (max-width: 767px) {
   body {
-    background-image: url('img/pentagon.png') no-repeat;
+    background: url('../img/pentagon.png');
   }
 }
 
 /* Landscape phones and down */
 @media (max-width: 480px) {
   body {
-    background-image: url('img/sativa.png') no-repeat;
+    background: url('../img/sativa.png');
   }
 }
