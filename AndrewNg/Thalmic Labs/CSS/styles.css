@@ -5,8 +5,8 @@
 .navbar ul li{
 	text-transform: uppercase;
 }
-.navbar-default .navbar-nav > ul > li:hover{
-	color: sssblue;
+.navbar-default .navbar-nav>li>a:hover{
+	color: #43c3d9;
 
 }
 
