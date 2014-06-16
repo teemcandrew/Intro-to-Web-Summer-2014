@@ -157,10 +157,16 @@
 		font-size: 7em;
 		margin-left: 160px;
 	}
+	.title {
+		padding-top: 20px;
+	}
 	.title img {
 		z-index: 1;
 		position: fixed;
 		width: 120px;
+		border-radius: 100%;
+		/*box-shadow: 3px 3px 3px 3px #888888;*/
+		box-shadow: -1px 4px 10px 5px rgba(0,0,0,0.5);
 		/*float: right;
 		margin-left:100px;
 		margin-top: -70px;*/
@@ -227,7 +233,7 @@
 	}
 	#about a {
 		z-index: 2;
-		/*margin: -38px 0 0 740px;*/
+		margin: 270px 0 0 140px;
 		font-size: 1.8em;
 		position: absolute;
 		font-family: cursive;
@@ -237,9 +243,9 @@
 
 	.cup img {
 		float: left;
-		z-index: -1;
-		width: 940px;
-		margin: -470px 0 0 0px;
+		z-index: 1;
+		width: 90em;
+		margin: -580px 0 0 -160px;
 		position: absolute;
 	}
 	#map {
