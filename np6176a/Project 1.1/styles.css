@@ -152,10 +152,11 @@
 	#home {
 		/*display: block;
 		position: relative;*/
+		z-index: 1;
 		width: 100%;
 		font-family: cursive;
 		font-size: 7em;
-		margin-left: 160px;
+		margin-left: 500px;
 	}
 	.title {
 		padding-top: 20px;
@@ -195,12 +196,12 @@
 		/*margin: 160px 0 0 60px;*/
 	}
 	#sugar {
-		z-index: 1;
+		z-index: -1;
 		width: 400px;
-		/*float: right;
+		float: right;
 		position: absolute;
-		display: block;*/
-		/*margin: -300px 0 0 600px;*/
+		display: block;
+		margin: -300px 0 0 600px;
 	}
 	.nav a {
 		z-index: 1;
@@ -208,8 +209,8 @@
 		text-decoration: none;
 	}
 	#menu {
-		margin: 240px 0 0 -190px;;
-		font-size: 3em;
+		margin: 90px 0 0 -190px;
+		font-size: 4em;
 		position: absolute;
 		font-family: cursive;
 		font-family: cursive;
@@ -221,7 +222,7 @@
 	}
 	#contact a {
 		z-index: 2;
-		margin: 120px 0 0 160px;
+		margin: -190px 0 0 750px;
 		font-size: 1.8em;
 		position: absolute;
 		font-family: cursive;
@@ -233,7 +234,7 @@
 	}
 	#about a {
 		z-index: 2;
-		margin: 270px 0 0 140px;
+		margin: -30px 0 0 730px;
 		font-size: 1.8em;
 		position: absolute;
 		font-family: cursive;
@@ -243,21 +244,22 @@
 
 	.cup img {
 		float: left;
-		z-index: 1;
+		z-index: -1;
 		width: 90em;
-		margin: -580px 0 0 -160px;
+		margin: -1460px 0 0 -220px;
 		position: absolute;
 	}
 	#map {
 		position: relative;
 	}
 	#map img {
+		z-index: 1;
 		display: inline-block;
 		float: left;
 		border-radius: 100%;
 		width: 290px;
 		position: absolute;
-		margin: 240px 0 0 330px;
+		margin: -490px 0 0 300px;
 	}
 	#info {
 		display: inline-block;
