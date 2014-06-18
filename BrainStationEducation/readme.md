@@ -75,23 +75,39 @@ Bootstrap Cont’d:
 
 ***
 
-### [Week 5 - Class 9](class_09.md)
+### [Week 5 - Class 9](class_08.md)
 
 Working with Bootstrap components:
 - Iconography
 - Dropdowns
 - Input Groups
 - Navigations
-- And much more. 
+- Scrollspy
 
 ***
 
-### [Week 5 - Class 10](class_10.md)
+### [Week 5 - Class 10](class_08.md)
 
 Working with Bootstrap built-in JavaScript:
 - Modal
-- Scrollspy
 - Tabs
 - Carousels
+- [Project 2](project_02.md) 
+
+***
+
+### [Week 6 - Class 11](project_02.md)
+
+- No new material covered today.
+- [Project 2](project_02.md) 
+
+***
+
+### [Week 6 - Class 12](class_11.md)
+
+Intro to JavaScript:
+- Variables
+- Data Structures
+- Loops 
 
 ***
