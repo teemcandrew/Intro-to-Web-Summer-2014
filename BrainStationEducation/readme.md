@@ -10,7 +10,7 @@ We've assembled a list of readings, videos, and tutorials that we encourage you 
 
 ## Class Schedule
 
-### [Week 1 - Class 1](class_01.md)
+### [Week 1 - Class 1](BrainStationEducation/class_01.md)
 
 - Version Control
 - Git And GitHub
@@ -18,7 +18,7 @@ We've assembled a list of readings, videos, and tutorials that we encourage you 
 
 ***
 
-### [Week 1 - Class 2](class_02.md)
+### [Week 1 - Class 2](BrainStationEducation/class_02.md)
 
 - Basic HTML
 - Basic CSS
@@ -27,7 +27,7 @@ We've assembled a list of readings, videos, and tutorials that we encourage you 
 
 ***
 
-### [Week 2 - Class 3](class_03.md)
+### [Week 2 - Class 3](BrainStationEducation/class_03.md)
 
 - CSS Positioning
 - CSS Box Model
@@ -36,7 +36,7 @@ We've assembled a list of readings, videos, and tutorials that we encourage you 
 
 ***
 
-### [Week 2 - Class 4](class_04.md)
+### [Week 2 - Class 4](BrainStationEducation/class_04.md)
 
 - More CSS Positioning
 - CSS Floats
@@ -44,7 +44,7 @@ We've assembled a list of readings, videos, and tutorials that we encourage you 
 
 ***
 
-### [Week 3 - Class 5](class_05.md)
+### [Week 3 - Class 5](BrainStationEducation/class_05.md)
 
 - Tables and Tabular Data
 - Media Queries
@@ -52,21 +52,21 @@ We've assembled a list of readings, videos, and tutorials that we encourage you 
 
 ***
 
-### [Week 3 - Class 6](class_06.md)
+### [Week 3 - Class 6](BrainStationEducation/class_06.md)
 
 - No New Material Covered Today
 - [Project 1](project_01.md) Continued
 
 ***
 
-### [Week 4 - Class 7](class_07.md)
+### [Week 4 - Class 7](BrainStationEducation/class_07.md)
 
 - Introduction to Twitter Bootstrap
 - Setting up Bootstrap Project
 
 ***
 
-### [Week 4 - Class 8](class_08.md)
+### [Week 4 - Class 8](BrainStationEducation/class_08.md)
 
 Bootstrap Cont’d:
 
@@ -75,7 +75,7 @@ Bootstrap Cont’d:
 
 ***
 
-### [Week 5 - Class 9](class_08.md)
+### [Week 5 - Class 9](BrainStationEducation/class_08.md)
 
 Working with Bootstrap components:
 - Iconography
@@ -86,24 +86,24 @@ Working with Bootstrap components:
 
 ***
 
-### [Week 5 - Class 10](class_08.md)
+### [Week 5 - Class 10](BrainStationEducation/class_08.md)
 
 Working with Bootstrap built-in JavaScript:
 - Modal
 - Tabs
 - Carousels
-- [Project 2](project_02.md) 
+- [Project 2](BrainStationEducation/project_02.md) 
 
 ***
 
-### [Week 6 - Class 11](project_02.md)
+### [Week 6 - Class 11](BrainStationEducation/project_02.md)
 
 - No new material covered today.
-- [Project 2](project_02.md) 
+- [Project 2](BrainStationEducation/project_02.md) 
 
 ***
 
-### [Week 6 - Class 12](class_11.md)
+### [Week 6 - Class 12](BrainStationEducation/class_11.md)
 
 Intro to JavaScript:
 - Variables
