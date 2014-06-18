@@ -10,7 +10,7 @@ We've assembled a list of readings, videos, and tutorials that we encourage you 
 
 ## Class Schedule
 
-### [Week 1 - Class 1](/class_01.md)
+### [Week 1 - Class 1](./class_01.md)
 
 - Version Control
 - Git And GitHub
