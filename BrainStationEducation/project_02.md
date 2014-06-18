@@ -21,7 +21,7 @@ Your mission (if you choose to accept it) is to build a kick-ass product page. I
 - [Pebble] (https://getpebble.com/)
 - [Fitbit] (http://www.fitbit.com/flex)
 - [Makerbot] (http://store.makerbot.com/digitizer)
-— [Apple iPad] (https://www.apple.com/ipad-mini/)
+- [Apple iPad] (https://www.apple.com/ipad-mini/)
 
 
 ## Project Details
