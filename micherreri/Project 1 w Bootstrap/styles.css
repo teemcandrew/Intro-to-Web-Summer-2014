@@ -2,9 +2,16 @@
 	max-height: 150px;
 	width: 450px;
 }
-
+@media (max-width:800px){
 .top{
-	height: 180px;
+		height: 10;
+	}
+}
+@media (min-width:500px){
+.top{
+	height: auto;
+	min-height:189px;
+}
 }
 
 #swish-navigation {
