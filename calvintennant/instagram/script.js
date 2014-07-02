@@ -9,7 +9,6 @@ function successCallback(response) {
 	var photosElement = document.getElementById('photos');
 	console.log(response);
 	response.data.forEach(function(photo) {
-		console.log(photo);
 		var html = '';
 		html += '<a class="col-md-3 photo" href="' + photo.link + '">';
 		html += '<img src="';
