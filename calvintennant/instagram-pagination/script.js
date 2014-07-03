@@ -10,6 +10,11 @@ function successCallback(response) {
 		html += '<img src="';
 		html += photo.images.standard_resolution.url;
 		html += '">';
+		//html += '<p>' + photo.caption.text + '</p>'
+		html += '<img class="profile-pic" src="';
+		html += photo.user.profile_picture;
+		html += '">';
+
 		html += '</a>';
 		photosElement.innerHTML += html;
 	});

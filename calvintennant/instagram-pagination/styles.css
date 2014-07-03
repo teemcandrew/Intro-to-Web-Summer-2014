@@ -5,3 +5,10 @@
 .photo img {
 	max-width: 100%;
 }
+
+.profile-pic {
+	position: absolute;
+	height: 50px;
+	bottom: 0;
+	left: 0;
+}
