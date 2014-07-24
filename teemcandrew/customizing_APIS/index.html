@@ -1,0 +1,70 @@
+<doctype html>
+<html>
+	<head>
+		<title>Week 2, Instagram!</title>
+		<link rel="stylessheet" ref="styles.css">
+		<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+		<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD9rABaf_KBbLEY9UI2wiwiOZ8SeFoAZBE&sensor=false"></script>
+		    <script type="text/javascript"></script>
+      	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBJ_FHKMMAEltCZ1e8jAw8FXWnU36iyQxA">
+    </script>
+		<script type="text/javascript">
+			var map, droppedPin;
+			$(document).ready(function() {
+				map = new google.maps.Map(document.getElementById("map-canvas"), {
+					zoom: 16
+				});
+				google.maps.event.addListener(map, 'click', function(event) {
+					console.log(event.latLng);
+					searchPhotos(event.latLng);
+  				});
+
+				navigator.geolocation.getCurrentPosition(function(position) {
+					searchPhotos(new google.maps.LatLng(position.coords.latitude, position.coords.longitude));
+				});
+			});
+
+			function searchPhotos(latlng) {
+				var openInfowindow;
+				$.ajax({
+					type: "GET",
+					dataType: "jsonp",
+					cache: false,
+					url: 'https://api.instagram.com/v1/media/search?distance=100&lat=' + latlng.lat() + '&lng=' + latlng.lng() + '&client_id=585d00be2af34a26b0e1caa6995cf19f',
+					success: function(response) {
+						response.data.forEach(function(media) {
+							var latlng = new google.maps.LatLng(media.location.latitude, media.location.longitude);
+							var marker = new google.maps.Marker({
+								position: latlng,
+								map: map
+							});
+							var infowindow = new google.maps.InfoWindow({
+								content: '<img src="' + media.images.low_resolution.url + '">',
+							});
+  							google.maps.event.addListener(marker, 'click', function() {
+  								if (openInfowindow) openInfowindow.close();
+  								openInfowindow = infowindow;
+  								infowindow.open(map, marker);
+  							});
+						});
+					}
+				});
+				map.setCenter(latlng);
+				droppedPin = new google.maps.Marker({
+					position: latlng,
+					map: map,
+					animation:google.maps.Animation.BOUNCE
+				});
+			}
+		</script>
+
+    <style type="text/css">
+      html { height: 100% }
+      body { height: 100%; margin: 0; padding: 0 }
+      #map-canvas { height: 100% }
+    </style>
+	</head>
+	<body>
+    	<div id="map-canvas"></div>
+	</body>
+</html>
